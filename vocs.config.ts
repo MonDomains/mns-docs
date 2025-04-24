@@ -3,17 +3,7 @@ import { defineConfig } from 'vocs'
 export default defineConfig({
   title: 'MNS Documentation',
   description: "Build decentralized app with MNS on Monad.",
-  logoUrl: "/logo.png",
-  font: { 
-    google: 'Roboto'
-  }, 
-  theme: {
-    variables: {
-      fontSize: {
-       
-      }
-    }
-  },
+  logoUrl: "/logo.png",  
   sidebar: [
     {
       text: 'Introduction',
@@ -37,6 +27,10 @@ export default defineConfig({
     {
       text: 'Getting Started',
       link: '/getting-started',
+    },
+    {
+      text: 'Name Normalization',
+      link: '/name-normalization',
     },
     {
       text: 'Name Processing',
