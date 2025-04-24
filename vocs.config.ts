@@ -37,6 +37,18 @@ export default defineConfig({
     {
       text: 'Getting Started',
       link: '/getting-started',
+    },
+    {
+      text: 'Name Processing',
+      link: '/name-processing',
+    },
+    {
+      text: 'Subgraph',
+      link: '/subgraph',
+    },
+    {
+      text: 'Frequently Asked Questions',
+      link: '/faq',
     }
   ],
   socials: [ 
