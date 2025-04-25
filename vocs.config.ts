@@ -29,10 +29,6 @@ export default defineConfig({
       link: '/getting-started',
     },
     {
-      text: 'Name Normalization',
-      link: '/name-normalization',
-    },
-    {
       text: 'Name Processing',
       link: '/name-processing',
     },
