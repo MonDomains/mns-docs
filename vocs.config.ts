@@ -8,11 +8,6 @@ export default defineConfig({
     pattern: 'https://github.com/MonDomains/edit/main/site/pages/:path', 
     text: 'Edit on GitHub'
   }, 
-  vite: {
-    build: {
-      outDir: "./docs",
-    }
-  },
   sidebar: [
     {
       text: 'Introduction',
