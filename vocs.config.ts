@@ -4,10 +4,6 @@ export default defineConfig({
   title: 'MNS Documentation',
   description: "Build decentralized app with MNS on Monad.",
   logoUrl: "/logo.png",
-  editLink: { 
-    pattern: 'https://github.com/MonDomains/edit/main/site/pages/:path', 
-    text: 'Edit on GitHub'
-  }, 
   sidebar: [
     {
       text: 'Introduction',
