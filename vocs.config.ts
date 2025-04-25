@@ -3,7 +3,10 @@ import { defineConfig } from 'vocs'
 export default defineConfig({
   title: 'MNS Documentation',
   description: "Build decentralized app with MNS on Monad.",
-  logoUrl: "/logo.png",
+  logoUrl: {
+    light: "/logo-dark.png",
+    dark: "/logo-white.png"
+  },
   sidebar: [
     {
       text: 'Introduction',
