@@ -7,6 +7,20 @@ export default defineConfig({
     light: "/logo-dark.png",
     dark: "/logo-white.png"
   },
+  theme: {
+    variables: {
+      color: {
+        link: {
+          light: "#836EF9",
+          dark: "#836EF9"
+        },
+        linkHover: {
+          light: "#4D4193",
+          dark: "#4D4193"
+        },
+      }
+    }
+  },
   sidebar: [
     {
       text: 'Introduction',

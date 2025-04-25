@@ -20,6 +20,10 @@
   
 }
 
+.vocs_Sidebar_sectionTitleLink[data-active="true"], .vocs_Sidebar_item[data-active="true"] {
+  color: #836EF9 !important;
+}
+
 .logo_container {
   text-align: center;
   margin: 0 !important;
