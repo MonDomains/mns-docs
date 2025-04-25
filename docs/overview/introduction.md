@@ -2,7 +2,7 @@
 
 ## What is the Mon Name Service?
 
-The Mon Name Service (MNS) is a decentralized, open-source, and extensible naming system built on Monad blockchain. It’s compatible with ENS that makes it easy to integrate.
+The Mon Name Service (MNS) is a decentralized and open-source naming system built on Monad blockchain. It’s compatible with ENS. So that makes it easy to integrate.
 
 MNS maps human-readable names like ‘alice.mon’ to machine-readable identifiers such as Monad addresses, other cryptocurrency addresses, content hashes, metadata, and more. MNS also supports ‘reverse resolution’, making it possible to associate metadata such as primary names or interface descriptions with Monad addresses.
 

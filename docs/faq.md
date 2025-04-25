@@ -17,7 +17,7 @@ Yes, you can hold your name with one address and point it at another. Visit the 
 
 Hashes provide a fixed length identifier that can easily be passed around between contracts with fixed overhead and no issues passing around variable-length strings.
 
-Read more about [labelhash](/name-processing), [namehash](/name-processing).
+Read more about [labelhash](/using-mns/name-processing), [namehash](/using-mns/name-processing).
 
 ### Once I own a name, can I create my own subdomains?
 
@@ -29,7 +29,7 @@ MNS names are generally encoded using UTS-46. This means there is partial suppor
 
 However technically possible to register any name, names that are not valid UTS-46 will not be resolvable by most resolvers. Therefore it is generally recommended for apps that implement registration to limit the characters that can be registered to ensure a smooth experience.
 
-To read more about supported characters [name normalization](/name-processing#name-normalization).
+To read more about supported characters [name normalization](/using-mns/name-processing#name-normalization).
 
 ### How long can I register a name for?
 
@@ -50,11 +50,13 @@ If you forget to renew your name, it will be released back to the public pool of
 ### What does it cost to register a .mon domain?
 
 Currently, registration costs are set at the following prices;
-    - 5+ character .mon names: $5 in MON per year.
-    - 4 character .mon names: $50 in MON per year.
-    - 3 character .mon names: $100 in MON per year.
+- 5+ character .mon names: $5 in MON per year.
+- 4 character .mon names: $50 in MON per year.
+- 3 character .mon names: $100 in MON per year.
 
 3 and 4 character names have higher pricing to reflect the small number of these names available.
+
+### Why is my MNS name not appear in "Names" page?
 
 
 

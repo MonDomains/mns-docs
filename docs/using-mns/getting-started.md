@@ -2,7 +2,7 @@
 
 MNS is compatible with ENS. so that means you can use ENS libraries on your application.
 
-# Installation
+## Installation
 
 :::code-group
  

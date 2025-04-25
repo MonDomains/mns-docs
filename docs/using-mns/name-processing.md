@@ -27,9 +27,9 @@ If the name was not able to be normalized, then that method will throw an error.
 
 ## Namehash
 
-:::note
-You MUST normalize a name before you attempt to create a namehash! If you don't, then the hash you get may be incorrect. Some libraries like ensjs will automatically do this for you. 
-:::
+> [!IMPORTANT]
+> You MUST normalize a name before you attempt to create a namehash! If you don't, then the hash you get may be incorrect. Some libraries like ensjs will automatically do this for you. 
+
 
 In the core MNS registry, names are stored as a hash instead of the raw string to optimize for gas, performance, and more. This hashed value is typically referred to as a node. The node is a hex-encoded 32-byte value that is derived from the name using the namehash algorithm defined in `ENSIP-1`.
 
@@ -118,9 +118,9 @@ And the resulting namehash for the reverse node is:
 
 ## Labelhash
 
-:::note
-You MUST normalize a name before you attempt to create a labelhash! If you don't, then the hash you get may be incorrect.
-:::
+> [!IMPORTANT]
+> You MUST normalize a name before you attempt to create a labelhash! If you don't, then the hash you get may be incorrect.
+
 
 Labelhash is the Keccak-256 hash of a single label (e.g. name in name.mon), used in places that don’t require the full name.
 

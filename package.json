@@ -1,20 +1,10 @@
 {
-  "name": "mns-docs",
-  "private": true,
-  "version": "0.0.1",
-  "type": "module",
-  "scripts": {
-    "dev": "vocs dev",
-    "build": "vocs build",
-    "preview": "vocs preview"
-  },
-  "dependencies": {
-    "react": "latest",
-    "react-dom": "latest",
-    "vocs": "latest"
-  },
   "devDependencies": {
-    "@types/react": "latest",
-    "typescript": "latest"
+    "vitepress": "^1.6.3"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
   }
 }

@@ -1,3 +1,5 @@
+# Terminology
+
 ## Name
 An MNS identifier such as ‘alice.mon’. Names may consist of multiple parts, called labels, separated by dots. This also includes DNS names like name.xyz, or subnames like sub.name.mon.
 

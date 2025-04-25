@@ -15,7 +15,7 @@ Twitter: @alice
 `
 
 
-Implementing forwards resolution in a dApp can be as simple as using a single line of code! To learn more about how to implement forwards resolution, check out the [Address Resolution documentation](/resolution).
+Implementing forwards resolution in a dApp can be as simple as using a single line of code! To learn more about how to implement forwards resolution, check out the [Address Resolution documentation](/overview/resolving).
 
 ## Reverse Resolution
 
@@ -23,7 +23,7 @@ Reverse resolution is the process of converting **from address to name**. This i
 
 `0xd1...e252 ➡️ alice.mon`
 
-Implementing reverse resolution in a dApp can be as simple as using a single line of code! To learn more about how to implement reverse resolution, check out the [Address Resolution documentation](/resolution).
+Implementing reverse resolution in a dApp can be as simple as using a single line of code! To learn more about how to implement reverse resolution, check out the [Address Resolution documentation](/overview/resolving).
 
 
 
