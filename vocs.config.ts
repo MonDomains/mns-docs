@@ -3,7 +3,16 @@ import { defineConfig } from 'vocs'
 export default defineConfig({
   title: 'MNS Documentation',
   description: "Build decentralized app with MNS on Monad.",
-  logoUrl: "/logo.png",  
+  logoUrl: "/logo.png",
+  editLink: { 
+    pattern: 'https://github.com/MonDomains/edit/main/site/pages/:path', 
+    text: 'Edit on GitHub'
+  }, 
+  vite: {
+    build: {
+      outDir: "./docs",
+    }
+  },
   sidebar: [
     {
       text: 'Introduction',
