@@ -1,0 +1,3 @@
+name = "mns-docs"
+pages_build_output_dir = "docs/dist"
+compatibility_date = "2025-04-26"
