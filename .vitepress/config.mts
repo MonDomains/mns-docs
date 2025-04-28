@@ -23,7 +23,8 @@ export default defineConfig({
   ],
   themeConfig: {
     editLink: {
-      pattern: 'https://github.com/MonDomains/edit/main/docs/:path'
+      text: "Edit on Github",
+      pattern: 'https://github.com/MonDomains/mns-docs/edit/master/docs/:path'
     },
     search: {
       provider: 'local'
