@@ -58,6 +58,12 @@ Currently, registration costs are set at the following prices;
 
 ### Why is my MNS name not appear in "Names" page?
 
+The MNS Manager App 'My Names' page displays MNS names where the connected wallet address is either the Owner or Manager. MNS uses The Graph Protocol to index on-chain data and show your name list. This off-chain data may delay to be updated. 
+
+You can still view these names in the Manager App by searching for them directly using the search bar. 
+
+
+
 
 
 
