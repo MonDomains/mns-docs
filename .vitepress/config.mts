@@ -7,6 +7,20 @@ export default defineConfig({
   title: "Mon Name Service Docs",
   description: "Monad Name Service (MNS) is a domain system built on Monad. MNS allows you to take control of your web3 identity on Monad. Mint your .mon",
   cleanUrls: true,
+  head: [
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-663C0CBHQZ' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-663C0CBHQZ');`
+    ]
+  ],
   themeConfig: {
     editLink: {
       pattern: 'https://github.com/MonDomains/edit/main/docs/:path'
@@ -60,6 +74,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/MonDomains' },
       { icon: 'twitter', link: 'https://x.com/MonDomains' },
-    ]
+    ],
+
+    
   }
 })
