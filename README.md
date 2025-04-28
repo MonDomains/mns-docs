@@ -1,7 +1,7 @@
 
 # mns-docs
 
-This repository contains the source code for docs.monadns.com, as well as the markdown files that make up its contents. It's built with [Vitepress](https://vitepress.dev) and deployed to Cloudflare Pages.
+This repository contains the source code for docs.monadns.com, as well as the markdown files that make up its contents. It's built with [Vitepress](https://vitepress.dev) and deployed to [Cloudflare Pages](https://www.cloudflare.com/developer-platform/products/pages/).
 
 ## Contributing
 
