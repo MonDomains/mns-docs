@@ -19,6 +19,62 @@ export default defineConfig({
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-663C0CBHQZ');`
+    ],
+    [
+      "meta",
+      {
+        property: "og:image",
+        content: "https://docs.monadns.com/docs-og-image.png"
+      }
+    ], 
+    [
+      "meta",
+      {
+        property: "twitter:image",
+        content: "https://docs.monadns.com/docs-og-image.png"
+      }
+    ],
+    [
+      "meta",
+      {
+        property: "twitter:card",
+        content: "summary_large_image"
+      }
+    ], 
+    [
+      "meta",
+      {
+        property: "twitter:site",
+        content: "@MonDomains"
+      }
+    ], 
+    [
+      "meta",
+      {
+        property: "og:url",
+        content: "https://docs.monadns.com"
+      }
+    ], 
+    [
+      "meta",
+      {
+        property: "og:title",
+        content: "Mon Name Service Docs"
+      }
+    ],
+    [
+      "meta",
+      {
+        property: "og:description",
+        content: "Monad Name Service (MNS) is a domain system built on Monad. MNS allows you to take control of your web3 identity on Monad. Mint your .mon"
+      }
+    ], 
+    [
+      "meta",
+      {
+        property: "og:type",
+        content: "website"
+      }
     ]
   ],
   themeConfig: {
@@ -37,7 +93,7 @@ export default defineConfig({
     ],
     footer: {
       message: '',
-      copyright: 'Copyright © 2024 Mon Name Service'
+      copyright: 'Copyright © 2024 <a href=\"https://monadns.com\">Mon Name Service</a>'
     },
     sidebar: [
       {
