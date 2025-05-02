@@ -112,6 +112,13 @@ export default defineConfig({
         items: [
           { text: 'Getting Started', link: '/using-mns/getting-started' },
           { text: 'Name Processing', link: '/using-mns/name-processing' },
+          { text: 'Querying', 
+            collapsed: true, 
+            items: [
+              { text: 'Address Lookup', link: '/using-mns/querying/address-lookup'},
+              { text: 'Name Lookup', link: '/using-mns/querying/name-lookup'}
+            ]
+          },
           { text: 'Subgraph', link: '/using-mns/subgraph' }
         ]
       }, 
