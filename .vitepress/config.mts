@@ -24,14 +24,14 @@ export default defineConfig({
       "meta",
       {
         property: "og:image",
-        content: "https://docs.monadns.com/docs-og-image.png"
+        content: "https://docs.monadns.com/docs-og-image-v2.png"
       }
     ], 
     [
       "meta",
       {
         property: "twitter:image",
-        content: "https://docs.monadns.com/docs-og-image.png"
+        content: "https://docs.monadns.com/docs-og-image-v2.png"
       }
     ],
     [
